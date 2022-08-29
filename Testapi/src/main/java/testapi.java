@@ -17,8 +17,7 @@ public class testapi {
         public static void main(String[] args)
     {
         RestTemplate restTemplate = new RestTemplate();
-       // String url = "https://api.github.com/jasin93/repos";
-        String url = "https://catfact.ninja/fact";
+        String url = "https://api.github.com/users/jasin93/repos";
 
         ResponseEntity<String> response
                 = restTemplate.getForEntity(url, String.class);
