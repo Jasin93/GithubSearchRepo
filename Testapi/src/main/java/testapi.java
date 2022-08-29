@@ -12,22 +12,25 @@ import java.util.Scanner;
 
 public class testapi {
 
-    /*
-    public static void main(String[] args)
+
+
+        public static void main(String[] args)
     {
         RestTemplate restTemplate = new RestTemplate();
-        String url = "https://api.github.com/jasin93/repos";
+       // String url = "https://api.github.com/jasin93/repos";
+        String url = "https://catfact.ninja/fact";
 
         ResponseEntity<String> response
                 = restTemplate.getForEntity(url, String.class);
+
+        System.out.println(response.getBody());
     }
 
-*/
+        /*
 
 
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         try {
 
@@ -71,4 +74,6 @@ public class testapi {
 
         }
     }
+         */
+
 }
